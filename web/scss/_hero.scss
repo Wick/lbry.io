@@ -1,70 +1,76 @@
 @import "global";
 
-.hero
-{
+.hero {
   position: relative;
   color: white;
   padding-top: $spacing-vertical;
   padding-bottom: $spacing-vertical;
   font-family: $font-header;
-  blockquote
-  {
+
+  blockquote {
     border-left: 10px solid rgba(180, 180, 180, 0.3);
     padding: 0 15px;
-    font-size: 1.8em;
-    &.blockquote-large
-    {
+    font-size: 1.8rem;
+
+    &.blockquote-large {
       max-width: 600px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      font-size: 2.2em;
+      font-size: 2.2rem;
     }
-    + cite
-    {
+
+    + cite {
       margin-top: $spacing-vertical;
     }
   }
-  cite
-  {
+
+  cite {
     color: #ddd;
     display: block;
     text-align: right;
     font-style: italic;
-    em
-    {
+
+    em {
       font-style: normal;
     }
-    &:before
-    {
+
+    &::before {
       color: #aaa;
       content: "— ";
     }
   }
-  a[href]
-  {
+
+  a[href] {
     text-decoration: underline;
   }
-  .meta { color: #ddd; }
-   h4 [class*="icon-"] { margin-left: 5px; vertical-align: top; } /*shitty rule alert*/
+
+  .meta {
+    color: #ddd;
+  }
+
+  h4 [class*="icon-"] {
+    margin-left: 5px;
+    vertical-align: top;
+  } // shitty rule alert
 }
-.hero-pattern
-{
+
+.hero-pattern {
   background: black url(/img/dark.png) repeat top left scroll;
 }
-.hero-img
-{
+
+.hero-img {
   padding-top: $spacing-vertical;
   padding-bottom: $spacing-vertical;
   background: black url(/img/dark.png) no-repeat top center fixed;
   min-height: 420px;
-  @include background-size(cover);
-  &.hero-img-short
-  {
+  background-size: cover;
+
+  &.hero-img-short {
     min-height: 200px;
   }
-  &:before
-  {
+
+  &::before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -75,83 +81,81 @@
     left: 0;
   }
 }
-.hero-quote
-{
+
+.hero-quote {
   display: table;
   width: 100%;
-  .hero-content-wrapper
-  {
+
+  .hero-content-wrapper {
     display: table-cell;
     vertical-align: middle;
   }
-  p
-  {
+
+  p {
     margin-bottom: $spacing-vertical * 1.5;
   }
 }
-.hero-content
-{
+
+.hero-content {
   z-index: 1;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: $max-content-width;
-  /*padding prevents going to edges on mobile*/
+  // padding prevents going to edges on mobile
   padding-left: 10px;
   padding-right: 10px;
 }
-@media (max-width: $width-mobile-max)
-{
-    .hero
-    {
-        background-attachment: scroll;
-        background-position: center center;
-    }
-    .hero-tile
-    {
-      margin-bottom: $spacing-vertical * 1.5;
-    }
+
+@media (max-width: $width-mobile-max) {
+  .hero {
+    background-attachment: scroll;
+    background-position: center center;
+  }
+
+  .hero-tile {
+    margin-bottom: $spacing-vertical * 1.5;
+  }
 }
-.hero-tile-row + .hero-tile-row
-{
+
+.hero-tile-row + .hero-tile-row {
   margin-top: $spacing-vertical * 1.5;
 }
-.hero-tile
-{
-  img
-  {
+
+.hero-tile {
+  img {
     display: block;
     margin: 0 auto;
     margin-bottom: $spacing-vertical * .5;
   }
-  .icon-mega
-  {
+
+  .icon-mega {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     color: desaturate(lighten($color-primary, 40), 30);
-    color: #7ebeae; /*above wasn't working?*/
+    color: #7ebeae; // above was not working?
     text-shadow: 0 0 6px rgba(0,0,0,0.8);
   }
-  h3
-  {
-    font-size: 1.35em;
+
+  h3 {
+    font-size: 1.35rem;
     margin-bottom: $spacing-vertical * .5;
     font-weight: bold;
     text-align: center;
     margin-top: $spacing-vertical * .5;
   }
 }
-.hero-title
-{
+
+.hero-title {
   font-weight: bold;
-  font-size: 2.2em;
+  font-size: 2.2rem;
   margin-bottom: $spacing-vertical * 2;
 }
-.hero-title-small
-{
+
+.hero-title-small {
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   margin-bottom: $spacing-vertical;
 }

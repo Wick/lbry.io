@@ -6,12 +6,12 @@ $width-roadmap-item: $width-roadmap - 1;
 $width-date: 120px;
 $radius-roadmap: 10px;
 
-.roadmap-container
-{
+.roadmap-container {
   border-left: $width-roadmap solid $color-roadmap-border;
   margin: $spacing-vertical 0 $spacing-vertical $width-date;
-  &:before, &:after
-  {
+
+  &::before,
+  &::after {
     background: $color-roadmap-border;
     content: "";
     display: block;
@@ -20,33 +20,29 @@ $radius-roadmap: 10px;
     left: -2 * ($width-roadmap + 1);
     width: $width-roadmap * 4;
   }
-  &:before
-  {
+
+  &::before {
     top: -1 * ($width-roadmap);
   }
-  &:after
-  {
+
+  &::after {
     bottom: -1 * ($width-roadmap);
   }
 }
 
-.show-all-roadmap-groups
-{
+.show-all-roadmap-groups {
   display: inline-block;
   margin: $spacing-vertical 0 0;
 }
 
-.roadmap-group-closed
-{
+.roadmap-group-closed {
   display: none;
 }
 
 $title-spur: 8 * $width-roadmap;
 
-.roadmap-group-title
-{
-  &:before
-  {
+.roadmap-group-title {
+  &::before {
     border-top: $width-roadmap solid $color-roadmap-border;
     content: "";
     display: inline-block;
@@ -55,16 +51,16 @@ $title-spur: 8 * $width-roadmap;
     vertical-align: middle;
     width: $title-spur;
   }
+
   cursor: pointer;
   font-weight: 400;
   margin: $spacing-vertical * 2 0 $spacing-vertical * 1 0;
   padding: 0;
 }
 
-.roadmap-group-title-label
-{
+.roadmap-group-title-label {
   background: $color-roadmap-border;
-  @include border-radius($radius-roadmap);
+  border-radius: $radius-roadmap;
   color: rgba(255, 255, 255, 0.85);
   display: inline-block;
   letter-spacing: 0;
@@ -73,8 +69,7 @@ $title-spur: 8 * $width-roadmap;
   width: calc(100% - #{$title-spur} - 20px);
 }
 
-.roadmap-item
-{
+.roadmap-item {
   $left-margin: 20px;
   $item-padding: $spacing-vertical / 2;
   margin-bottom: $spacing-vertical;
@@ -82,9 +77,10 @@ $title-spur: 8 * $width-roadmap;
   margin-left: $left-margin;
   position: relative;
   padding: $item-padding;
-  background: #f2f2f2;
-  @include border-radius($radius-roadmap);
-  &:before {
+  background-color: #f2f2f2;
+  border-radius: $radius-roadmap;
+
+  &::before {
     border-top: $width-roadmap-item solid $color-roadmap-border;
     content: "";
     position: absolute;
@@ -97,8 +93,7 @@ $title-spur: 8 * $width-roadmap;
   }
 }
 
-.roadmap-item-date
-{
+.roadmap-item-date {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -107,25 +102,21 @@ $title-spur: 8 * $width-roadmap;
   line-height: 42px;
 }
 
-.roadmap-item-title
-{
+.roadmap-item-title {
   display: inline-block;
   margin: 0;
 }
 
-.roadmap-item-content
-{
-  font-size: 0.9em;
+.roadmap-item-content {
+  font-size: 0.9rem;
   margin: 10px;
 }
-.roadmap-item-content a{@include anchor($color-primary);}
-.roadmap-item-assignee
-{
-  float: right;
-  font-size: 0.8em;
+
+.roadmap-item-content a {
+  @include anchor($color-primary);
 }
-/*
-.roadmap-item-closed .roadmap-item-content
-{
-  display: none;
-}*/
+
+.roadmap-item-assignee {
+  float: right;
+  font-size: 0.8rem;
+}

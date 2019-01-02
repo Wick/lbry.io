@@ -1,21 +1,27 @@
-@import "global";
-@import "reset";
-@import "grid";
+@charset "utf-8";
+
+// @import "init/global";
+// @import "init/reset";
+
+@import "../components/sass/index";
+@import "layout";
+
+// @import "alert";
+// @import "badge";
+// @import "basic";
+// @import "blog";
+// @import "bounty";
+// @import "code";
+// @import "content";
+// @import "cover";
+// @import "form";
+// @import "grid";
+// @import "header";
+// @import "hero";
+// @import "home";
 @import "icons";
-@import "alert";
-@import "notice";
-@import "badge";
-@import "basic";
-@import "form";
-@import "content";
-@import "cover";
-@import "hero";
-@import "header";
-@import "sale";
-@import "code";
-@import "blog";
-@import "bounty";
-@import "roadmap";
-@import "social";
-@import "home";
-@import "slider";
+// @import "notice";
+// @import "roadmap";
+// @import "sale";
+// @import "slider";
+// @import "social";

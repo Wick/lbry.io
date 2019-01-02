@@ -1,5 +1,5 @@
-$checked-color: #006148;
-$unchecked-color: #888;
+// $checked-color: #006148;
+// $unchecked-color: #888;
 
 .slider-checkbox {
   position: relative;
@@ -17,7 +17,7 @@ $unchecked-color: #888;
 
     &:not(:checked) + .label {
       &::before {
-        background-color: $unchecked-color;
+        // background-color: $unchecked-color;
         content: "\f00d";
         padding-left: 18px;
         text-align: center;
@@ -30,7 +30,7 @@ $unchecked-color: #888;
 
     &:checked + .label {
       &::before {
-        background-color: $checked-color;
+        // background-color: $checked-color;
         content: "\f00c";
         padding-right: 17px;
         text-align: center;

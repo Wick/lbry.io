@@ -1,0 +1,6 @@
+[submodule "web/components"]
+	path = web/components
+	url = https://github.com/lbryio/components
+[submodule "web/typefaces"]
+	path = web/typefaces
+	url = https://github.com/lbryio/typefaces

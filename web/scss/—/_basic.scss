@@ -1,16 +1,14 @@
-@import "global";
-
 * {
   box-sizing: border-box;
 }
 
 html {
   height: 100%;
-  font-size: $font-size;
+  // font-size: $font-size;
 }
 
 body {
-  font-family: $font-body;
+  // font-family: $font-body;
   line-height: 1.5;
   min-height: 100%;
   position: relative;
@@ -62,36 +60,36 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-header;
+  // font-family: $font-header;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  margin-bottom: $spacing-vertical / 2;
-  margin-top: $spacing-vertical / 2;
+  // margin-bottom: $spacing-vertical / 2;
+  // margin-top: $spacing-vertical / 2;
 }
 
 h1 {
-  font-size: $font-size-h1;
+  // font-size: $font-size-h1;
 }
 
 h2 {
-  font-size: $font-size-h2;
+  // font-size: $font-size-h2;
 }
 
 h3 {
-  font-size: $font-size-h3;
+  // font-size: $font-size-h3;
 }
 
 h4 {
-  font-size: $font-size-h4;
+  // font-size: $font-size-h4;
 }
 
 nav {
   font-size: 1.1rem;
-  font-family: $font-header;
+  // font-family: $font-header;
 }
 
 sup,
@@ -106,7 +104,7 @@ sub {
 }
 
 section {
-  margin-bottom: $spacing-vertical;
+  // margin-bottom: $spacing-vertical;
 
   &:last-child {
     margin-bottom: 0;
@@ -118,15 +116,15 @@ section {
 }
 
 .spacer-half {
-  margin-bottom: $spacing-vertical / 2;
+  // margin-bottom: $spacing-vertical / 2;
 }
 
 .spacer1 {
-  margin-bottom: $spacing-vertical;
+  // margin-bottom: $spacing-vertical;
 }
 
 .spacer2 {
-  margin-bottom: $spacing-vertical * 2;
+  // margin-bottom: $spacing-vertical * 2;
 }
 
 .text-center {
@@ -138,7 +136,7 @@ section {
 }
 
 .meta {
-  font-size: $font-size-meta;
+  // font-size: $font-size-meta;
 }
 
 .clear {
@@ -155,7 +153,7 @@ section {
 
 .link-primary,
 .markdown a[href]:not([class]) {
-  @include anchor($color-primary);
+  // @include anchor($color-primary);
 }
 
 .link-primary--break-word {
@@ -193,8 +191,8 @@ a:hover img {
 .btn-link {
   cursor: pointer;
   display: inline-block;
-  height: $spacing-vertical * 1.5;
-  line-height: $spacing-vertical * 1.5;
+  // height: $spacing-vertical * 1.5;
+  // line-height: $spacing-vertical * 1.5;
   padding: 0 15px;
   text-decoration: none;
   border: 0 none;
@@ -206,41 +204,41 @@ a:hover img {
 }
 
 .btn-link {
-  @include anchor($color-primary);
+  // @include anchor($color-primary);
 }
 
 // please kill this
 .btn--google-play {
-  $height-btn-google-play: 46px;
-  height: $height-btn-google-play;
-  line-height: $height-btn-google-play;
+  // $height-btn-google-play: 46px;
+  // height: $height-btn-google-play;
+  // line-height: $height-btn-google-play;
   padding: 0 30px;
   display: inline-block;
 
   > img {
-    max-height: $height-btn-google-play;
+    // max-height: $height-btn-google-play;
     display: inline !important;
   }
 }
 
 .btn-large {
-  height: $spacing-vertical * 2;
-  line-height: $spacing-vertical * 2;
+  // height: $spacing-vertical * 2;
+  // line-height: $spacing-vertical * 2;
   font-size: 1.5rem;
   padding: 0 30px;
 }
 
 .btn-primary {
   color: white;
-  background-color: $color-primary;
-  background-image: linear-gradient(lighten($color-primary, 5), darken($color-primary, 5));
+  // background-color: $color-primary;
+  // background-image: linear-gradient(lighten($color-primary, 5), darken($color-primary, 5));
   border: 1px solid black;
 }
 
 .btn-alt {
-  color: hsl(hue($color-primary), 85, 15);
-  background-image: linear-gradient(lighten($color-light-alt, 5), darken($color-light-alt, 5));
-  border: 1px solid darken($color-primary, 10);
+  // color: hsl(hue($color-primary), 85, 15);
+  // background-image: linear-gradient(lighten($color-light-alt, 5), darken($color-light-alt, 5));
+  // border: 1px solid darken($color-primary, 10);
 }
 
 .btn-full-width {
@@ -249,45 +247,45 @@ a:hover img {
 }
 
 .no-label .btn-label {
-  @include offscreen;
+  // @include offscreen;
 }
 
 .tiles {
   > .tile {
     float: left;
     margin-right: 20px;
-    margin-bottom: $spacing-vertical;
+    // margin-bottom: $spacing-vertical;
   }
 
-  @include clearfix;
+  // @include clearfix;
 }
 
 .clearfix {
-  @include clearfix;
+  // @include clearfix;
 }
 
 .table-layout {
   td {
-    padding: 3px 5px $spacing-vertical - 3px;
+    // padding: 3px 5px $spacing-vertical - 3px;
     vertical-align: middle;
   }
 }
 
-@media (max-width: $width-mobile-max) {
-  .fullscreen {
-    display: none;
-  }
-}
+// @media (max-width: $width-mobile-max) {
+//   .fullscreen {
+//     display: none;
+//   }
+// }
 
-@media (min-width: $width-laptop-min) {
-  .mobile {
-    display: none;
-  }
+// @media (min-width: $width-laptop-min) {
+//   .mobile {
+//     display: none;
+//   }
 
-  .no-label-desktop .btn-label {
-    @include offscreen;
-  }
-}
+//   .no-label-desktop .btn-label {
+//     @include offscreen;
+//   }
+// }
 
 
 body {

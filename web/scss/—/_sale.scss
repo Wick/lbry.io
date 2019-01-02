@@ -1,5 +1,3 @@
-@import "global";
-
 .sale-title {
   margin-bottom: 0;
   font-size: 1.5rem;
@@ -24,8 +22,8 @@
 
 .sale-call {
   text-align: center;
-  font-family: $font-header;
-  margin-bottom: $spacing-vertical / 2;
+  // font-family: $font-header;
+  // margin-bottom: $spacing-vertical / 2;
 
   .sale-call-total-people {
     font-weight: bold;
@@ -38,7 +36,7 @@
   }
 
   .sale-ctas {
-    margin-bottom: $spacing-vertical;
+    // margin-bottom: $spacing-vertical;
   }
 
   .sale-cta {
@@ -47,12 +45,12 @@
   }
 
   .sale-call-verb {
-    margin-bottom: $spacing-vertical / 4;
+    // margin-bottom: $spacing-vertical / 4;
     margin-right: 10px;
   }
 
   .sale-call-prep {
-    margin: 10px $spacing-vertical / 2 0 $spacing-vertical / 4;
+    // margin: 10px $spacing-vertical / 2 0 $spacing-vertical / 4;
   }
 }
 
@@ -60,18 +58,18 @@
   border-radius: 5px;
   background-color: white;
   color: #111;
-  padding: $spacing-vertical;
+  // padding: $spacing-vertical;
   cursor: pointer;
   position: relative;
-  margin-bottom: $spacing-vertical;
+  // margin-bottom: $spacing-vertical;
 
   &.sale-level-clickable {
-    padding: $spacing-vertical $spacing-vertical / 2;
-    margin: 0 $spacing-vertical / 2 $spacing-vertical;
+    // padding: $spacing-vertical $spacing-vertical / 2;
+    // margin: 0 $spacing-vertical / 2 $spacing-vertical;
 
     &:hover {
-      padding-left: $spacing-vertical;
-      padding-right: $spacing-vertical;
+      // padding-left: $spacing-vertical;
+      // padding-right: $spacing-vertical;
       margin-left: 0;
       margin-right: 0;
     }
@@ -93,47 +91,47 @@
 }
 
 .sale-level-help {
-  color: $color-meta-light;
+  // color: $color-meta-light;
   font-size: 0.75rem;
 }
 
 .sale-level-radio {
   position: absolute;
-  top: $spacing-vertical * 1.25;
-  left: $spacing-vertical / 2;
+  // top: $spacing-vertical * 1.25;
+  // left: $spacing-vertical / 2;
 }
 
 .sale-level:hover .sale-level-radio {
-  left: $spacing-vertical;
+  // left: $spacing-vertical;
 }
 
 .sale-level-cost {
-  color: $color-money;
+  // color: $color-money;
   font-weight: bold;
 }
 
 .sale-level-credits {
   font-weight: bold;
-  margin-bottom: $spacing-vertical / 2;
+  // margin-bottom: $spacing-vertical / 2;
 }
 
 .sale-level-reward-title {
-  color: $color-meta-light;
+  // color: $color-meta-light;
 }
 
 .sale-question-bubble {
   border-radius: 5px;
-  background: $color-light-alt;
-  margin-bottom: $spacing-vertical;
+  // background: $color-light-alt;
+  // margin-bottom: $spacing-vertical;
   font-size: 0.8rem;
-  padding: $spacing-vertical $spacing-vertical;
+  // padding: $spacing-vertical $spacing-vertical;
 
   &:last-child {
     margin-bottom: 0;
   }
 
   p {
-    margin-bottom: $spacing-vertical / 2;
+    // margin-bottom: $spacing-vertical / 2;
 
     &:last-child {
       margin-bottom: 0;
@@ -152,12 +150,12 @@
 .goal-wrap {
   width: 100%;
   padding: 0 20px;
-  @include clearfix;
+  // @include clearfix;
 }
 
 .goal-glass {
   width: 100%;
-  height: $spacing-vertical;
+  // height: $spacing-vertical;
   background-color: #c7c7c7;
   border-radius: 10px;
   overflow: hidden;
@@ -165,14 +163,14 @@
 
 .goal-progress {
   float: left;
-  height: $spacing-vertical;
-  background-image: repeating-linear-gradient(
-    45deg,
-    lighten($color-primary, 20),
-    lighten($color-primary, 20) 10px,
-    lighten($color-primary, 30) 10px,
-    lighten($color-primary, 30) 20px
-  );
+  // height: $spacing-vertical;
+  // background-image: repeating-linear-gradient(
+  //   45deg,
+  //   lighten($color-primary, 20),
+  //   lighten($color-primary, 20) 10px,
+  //   lighten($color-primary, 30) 10px,
+  //   lighten($color-primary, 30) 20px
+  // );
   z-index: 1;
 }
 
@@ -201,7 +199,7 @@
 .control-item-img {
   a {
     display: inline-block;
-    height: $spacing-vertical * 2;
+    // height: $spacing-vertical * 2;
     line-height: 0;
   }
 }

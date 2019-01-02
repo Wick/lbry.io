@@ -1,11 +1,9 @@
-@import "global";
-
 .hero {
   position: relative;
   color: white;
-  padding-top: $spacing-vertical;
-  padding-bottom: $spacing-vertical;
-  font-family: $font-header;
+  // padding-top: $spacing-vertical;
+  // padding-bottom: $spacing-vertical;
+  // font-family: $font-header;
 
   blockquote {
     border-left: 10px solid rgba(180, 180, 180, 0.3);
@@ -21,7 +19,7 @@
     }
 
     + cite {
-      margin-top: $spacing-vertical;
+      // margin-top: $spacing-vertical;
     }
   }
 
@@ -60,8 +58,8 @@
 }
 
 .hero-img {
-  padding-top: $spacing-vertical;
-  padding-bottom: $spacing-vertical;
+  // padding-top: $spacing-vertical;
+  // padding-bottom: $spacing-vertical;
   background: black url(/img/dark.png) no-repeat top center fixed;
   min-height: 420px;
   background-size: cover;
@@ -92,7 +90,7 @@
   }
 
   p {
-    margin-bottom: $spacing-vertical * 1.5;
+    // margin-bottom: $spacing-vertical * 1.5;
   }
 }
 
@@ -101,32 +99,32 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-content-width;
+  // max-width: $max-content-width;
   // padding prevents going to edges on mobile
   padding-left: 10px;
   padding-right: 10px;
 }
 
-@media (max-width: $width-mobile-max) {
-  .hero {
-    background-attachment: scroll;
-    background-position: center center;
-  }
+// @media (max-width: $width-mobile-max) {
+//   .hero {
+//     background-attachment: scroll;
+//     background-position: center center;
+//   }
 
-  .hero-tile {
-    margin-bottom: $spacing-vertical * 1.5;
-  }
-}
+//   .hero-tile {
+//     margin-bottom: $spacing-vertical * 1.5;
+//   }
+// }
 
 .hero-tile-row + .hero-tile-row {
-  margin-top: $spacing-vertical * 1.5;
+  // margin-top: $spacing-vertical * 1.5;
 }
 
 .hero-tile {
   img {
     display: block;
     margin: 0 auto;
-    margin-bottom: $spacing-vertical * .5;
+    // margin-bottom: $spacing-vertical * .5;
   }
 
   .icon-mega {
@@ -134,28 +132,28 @@
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    color: desaturate(lighten($color-primary, 40), 30);
+    // color: desaturate(lighten($color-primary, 40), 30);
     color: #7ebeae; // above was not working?
     text-shadow: 0 0 6px rgba(0,0,0,0.8);
   }
 
   h3 {
     font-size: 1.35rem;
-    margin-bottom: $spacing-vertical * .5;
+    // margin-bottom: $spacing-vertical * .5;
     font-weight: bold;
     text-align: center;
-    margin-top: $spacing-vertical * .5;
+    // margin-top: $spacing-vertical * .5;
   }
 }
 
 .hero-title {
   font-weight: bold;
   font-size: 2.2rem;
-  margin-bottom: $spacing-vertical * 2;
+  // margin-bottom: $spacing-vertical * 2;
 }
 
 .hero-title-small {
   font-weight: bold;
   font-size: 1.6rem;
-  margin-bottom: $spacing-vertical;
+  // margin-bottom: $spacing-vertical;
 }

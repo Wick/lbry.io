@@ -1,11 +1,9 @@
-@import "global";
-
 .content {
   margin-left: auto;
   margin-right: auto;
 
   &:not(.content-wide) {
-    max-width: $max-content-width; // we have more padding than desirable so numbers from ol can exceed container
+    // max-width: $max-content-width; // we have more padding than desirable so numbers from ol can exceed container
   }
 
   &.content-stretch {
@@ -13,22 +11,22 @@
   }
 
   &.content-tile {
-    max-width: $max-text-width;
+    // max-width: $max-text-width;
   }
 
   &.content-readable {
-    max-width: $max-text-width + 200;
+    // max-width: $max-text-width + 200;
   }
 
-  padding-left: $content-side-padding;
-  padding-right: $content-side-padding;
+  // padding-left: $content-side-padding;
+  // padding-right: $content-side-padding;
 
   h1,
   h2,
   h3,
   h4 {
     &:not(:first-child) {
-      margin-top: $spacing-vertical * 1.5;
+      // margin-top: $spacing-vertical * 1.5;
     }
   }
 
@@ -37,12 +35,12 @@
     + h2,
     + h3,
     + h4 {
-      margin-top: $spacing-vertical * 0.5;
+      // margin-top: $spacing-vertical * 0.5;
     }
   }
 
   &.content-dark {
-    color: $color-content-dark;
+    // color: $color-content-dark;
 
     h1,
     h2,
@@ -54,17 +52,17 @@
     }
 
     .link-primary {
-      color: $color-light-alt;
+      // color: $color-light-alt;
     }
 
     .meta {
-      color: $color-meta-dark;
+      // color: $color-meta-dark;
     }
   }
 
   &:not(.content-dark),
   &.content-light {
-    color: $color-content-light;
+    // color: $color-content-light;
 
     h1,
     h2,
@@ -72,15 +70,15 @@
     h4,
     h5,
     h6 {
-      color: $color-text-dark;
+      // color: $color-text-dark;
     }
 
     .meta {
-      color: $color-meta-light;
+      // color: $color-meta-light;
     }
 
     .link-primary {
-      color: $color-primary;
+      // color: $color-primary;
     }
 
     blockquote {
@@ -91,7 +89,7 @@
 
   p,
   twitterwidget {
-    margin-bottom: $spacing-vertical;
+    // margin-bottom: $spacing-vertical;
     margin-left: auto;
     margin-right: auto;
   }
@@ -113,17 +111,17 @@
   ul,
   ol {
     > li {
-      max-width: $max-text-width;
+      // max-width: $max-text-width;
       margin-left: auto;
       margin-right: auto;
 
       + li {
-        margin-top: $spacing-vertical;
+        // margin-top: $spacing-vertical;
       }
 
       > ul > li,
       > ol > li {
-        margin-top: $spacing-vertical / 2;
+        // margin-top: $spacing-vertical / 2;
       }
     }
 
@@ -137,24 +135,24 @@
 
     ul,
     ol {
-      margin-top: $spacing-vertical / 2;
-      margin-left: $spacing-vertical;
+      // margin-top: $spacing-vertical / 2;
+      // margin-left: $spacing-vertical;
     }
   }
 
   ul {
-    margin-bottom: $spacing-vertical * 1.5;
+    // margin-bottom: $spacing-vertical * 1.5;
 
     &:last-child {
-      margin-bottom: $spacing-vertical / 2;
+      // margin-bottom: $spacing-vertical / 2;
     }
   }
 
   ol {
-    margin-bottom: $spacing-vertical * 1.5;
+    // margin-bottom: $spacing-vertical * 1.5;
 
     &:last-child {
-      margin-bottom: $spacing-vertical / 2;
+      // margin-bottom: $spacing-vertical / 2;
     }
 
     padding-left: 2rem;
@@ -205,21 +203,21 @@
   iframe { // added for FAQ
     width: 100%;
     height: 500px;
-    margin-bottom: $spacing-vertical * 2;
+    // margin-bottom: $spacing-vertical * 2;
   }
 }
 
 .content-inset {
-  margin-left: $spacing-vertical;
-  margin-right: $spacing-vertical;
+  // margin-left: $spacing-vertical;
+  // margin-right: $spacing-vertical;
 }
 
 main > .content {
-  margin-top: $spacing-vertical;
+  // margin-top: $spacing-vertical;
 }
 
-@media(max-width: $max-text-width + 30) {
-  .content ol {
-    margin-left: 30px; // on small screens there is no space for numbers to exceed container
-  }
-}
+// @media(max-width: $max-text-width + 30) {
+//   .content ol {
+//     margin-left: 30px; // on small screens there is no space for numbers to exceed container
+//   }
+// }

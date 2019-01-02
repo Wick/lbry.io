@@ -1,0 +1,7 @@
+@include font-face(400, "../typefaces/inter", "Inter UI");
+@include font-face(700, "../typefaces/inter", "Inter UI");
+
+body {
+  @include font-sans;
+  font-size: 12px;
+}

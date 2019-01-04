@@ -3,8 +3,10 @@
 // @import "init/global";
 // @import "init/reset";
 
+@import "color/lbry-color";
 @import "../components/sass/index";
 @import "layout";
+@import "header";
 
 // @import "alert";
 // @import "badge";
@@ -16,7 +18,6 @@
 // @import "cover";
 // @import "form";
 // @import "grid";
-// @import "header";
 // @import "hero";
 // @import "home";
 @import "icons";

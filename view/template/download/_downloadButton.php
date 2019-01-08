@@ -1,6 +1,6 @@
 <?php if ($downloadUrl): ?>
   <?php if ($os !== OS::OS_ANDROID): ?>
-    <a class="btn-<?php echo $buttonStyle?> btn-large"
+    <a class="button--<?php echo $buttonStyle?>"
       download
       href="<?php echo $downloadUrl ?>"
       id="get-download-btn"
@@ -28,5 +28,5 @@
     <?php js_end() ?>
   <?php endif ?>
 <?php else: ?>
-  <a href="/get" class="btn-<?php echo $buttonStyle ?> btn-large">Download Manus</a><BR>
+  <a href="/get" class="button-<?php echo $buttonStyle ?> btn-large">Download Manus</a><BR>
 <?php endif ?>

@@ -5,8 +5,11 @@
 
 @import "color/lbry-color";
 @import "../components/sass/index";
+@import "../components/sass/button/index";
 @import "layout";
 @import "header";
+
+@import "pages/home";
 
 // @import "alert";
 // @import "badge";

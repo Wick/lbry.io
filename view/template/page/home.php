@@ -2,14 +2,38 @@
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
 <main class="home">
+  <section class="home__hero">
+    <div class="inner-wrap">
+      <aside class="home__cta">
+        <h1>Experience<br/>Content Freedom</h1>
+
+        <div>
+          <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
+          <a href="/get?showall=1" class="link-primary">show all platforms</a>
+        </div>
+      </aside>
+
+      <figure class="home__preview">
+        <a href="/get">
+          <img alt="Picture of LBRY Browser" src="https://spee.ch/7/home-demo.gif"/>
+        </a>
+      </figure>
+    </div>
+  </section>
+
+  <section> <!--/ 50% linear gradient /-->
+    <aside>
+      TECH
+    </aside>
+
+    <aside>
+      ORG
+    </aside>
+  </section>
+
+  <!--/
   <div class="cover home__title cover-light">
     <h1 class="cover-title cover-title-flat text-center">Content Freedom</h1>
-  </div>
-
-  <div class="cover home__media">
-    <a href="/get">
-      <img alt="Picture of LBRY Browser" src="https://spee.ch/7/home-demo.gif"/>
-    </a>
   </div>
 
   <div class="cover cover-light content content-light content-wide home__copy">
@@ -27,4 +51,5 @@
       <a href="/get?showall=1" class="link-primary">show all platforms</a>
     </div>
   </div>
+  /-->
 </main>

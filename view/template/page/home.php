@@ -1,6 +1,7 @@
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
+
 <main class="home">
   <section class="home__hero">
     <div class="inner-wrap">
@@ -9,7 +10,7 @@
 
         <div>
           <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
-          <a href="/get?showall=1" class="link-primary">show all platforms</a>
+          <a href="/get?showall=1" class="button--link">show all platforms</a>
         </div>
       </aside>
 
@@ -21,35 +22,26 @@
     </div>
   </section>
 
-  <section> <!--/ 50% linear gradient /-->
-    <aside>
-      TECH
-    </aside>
-
-    <aside>
-      ORG
-    </aside>
+  <section class="home__callout">
+    <p>LBRY is a free, open, and community-run digital marketplace.</p>
+    <p><strong>You</strong> own your data. <strong>You</strong> control the network. Indeed, you <em>are</em> the network.</p>
   </section>
 
-  <!--/
-  <div class="cover home__title cover-light">
-    <h1 class="cover-title cover-title-flat text-center">Content Freedom</h1>
-  </div>
+  <section class="home__sites">
+    <div class="inner-wrap">
+      <aside class="home__site site-tech">
+        <h3>😎<br/>LBRY.tech</h3>
+        <p>Curious about the underlying technology? Maybe you have ideas for features to add yourself!</p>
+        <a href="https://lbry.tech" class="button--inverse">Enter lbry.tech</a>
+      </aside>
 
-  <div class="cover cover-light content content-light content-wide home__copy">
-    <div class="spacer2">
-      <h2 class="cover-subtitle cover-title-flat">LBRY is a free, open, and community-run digital marketplace.</h2>
-      <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
-      <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
+      <aside class="home__site site-org">
+        <h3>🥰<br/>LBRY.org</h3>
+        <p>Have an awesome idea you want funded? Or a community project you would like help with?</p>
+        <a href="https://lbry.org" class="button--inverse">Join us at lbry.org</a>
+      </aside>
     </div>
-
-    <div class="spacer-half text-center">
-      <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
-    </div>
-
-    <div class="meta text-center">
-      <a href="/get?showall=1" class="link-primary">show all platforms</a>
-    </div>
-  </div>
-  /-->
+  </section>
 </main>
+
+<?php echo View::render('nav/_footer') ?>

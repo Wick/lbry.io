@@ -1,11 +1,32 @@
-.home__hero {
-  border-bottom: 1px solid $lbry-gray-1;
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-
+.home__hero,
+.home__sites {
   .inner-wrap {
     display: flex;
+  }
+}
+
+.home__hero {
+  flex: 1;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+
+  .inner-wrap {
     flex-direction: column;
+  }
+}
+
+.home__callout {
+  background-image: linear-gradient(to right, $lbry-teal-2, $lbry-cyan-3 100%);
+  background-size: cover;
+  color: $lbry-white;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  p {
+    line-height: 1.55;
   }
 }
 
@@ -15,7 +36,7 @@
 
   h1 {
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: 200;
     margin-bottom: 2rem;
   }
 
@@ -64,5 +85,39 @@
 
   img {
     box-shadow: 0 0 1rem rgba($lbry-black, 0.3);
+  }
+}
+
+.home__sites {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.home__site {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  position: relative;
+  width: 50%;
+
+  &:first-of-type::after {
+    width: 1px; height: 100%;
+    top: 0; right: 0;
+
+    background-color: $lbry-gray-1;
+    content: "";
+    position: absolute;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.33;
+    margin-bottom: 2rem;
   }
 }

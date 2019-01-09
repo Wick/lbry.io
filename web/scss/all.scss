@@ -1,31 +1,13 @@
 @charset "utf-8";
 
-// @import "init/global";
-// @import "init/reset";
-
 @import "color/lbry-color";
 @import "../components/sass/index";
 @import "../components/sass/button/index";
-@import "layout";
-@import "header";
+@import "icons";
+
+@import "partials/footer";
+@import "partials/header";
 
 @import "pages/home";
 
-// @import "alert";
-// @import "badge";
-// @import "basic";
-// @import "blog";
-// @import "bounty";
-// @import "code";
-// @import "content";
-// @import "cover";
-// @import "form";
-// @import "grid";
-// @import "hero";
-// @import "home";
-@import "icons";
-// @import "notice";
-// @import "roadmap";
-// @import "sale";
-// @import "slider";
-// @import "social";
+@import "layout";

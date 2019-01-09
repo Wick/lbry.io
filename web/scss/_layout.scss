@@ -1,3 +1,5 @@
+@include font-face(200, "../typefaces/inter", "Inter UI");
+@include font-face(300, "../typefaces/inter", "Inter UI");
 @include font-face(400, "../typefaces/inter", "Inter UI");
 @include font-face(700, "../typefaces/inter", "Inter UI");
 
@@ -16,27 +18,15 @@ body {
 }
 
 main {
+  background-color: $lbry-white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 330px;
   padding-top: 5rem;
-}
-
-.inner-wrap {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-
-  @media (min-width: 901px) {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-
-  @media (max-width: 900px) {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  &::after {
-    @include clearfix;
-  }
+  position: relative;
+  z-index: 1;
 }
 
 h1,
@@ -61,4 +51,42 @@ hr {
 
 code {
   @include font-mono;
+}
+
+strong {
+  font-weight: 700;
+}
+
+
+
+.flex-third {
+  flex-basis: 33.333333%;
+}
+
+.flex-half {
+  flex-basis: 50%;
+}
+
+.flex-full {
+  flex-basis: 100%;
+}
+
+.inner-wrap {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 901px) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @media (max-width: 900px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  &::after {
+    @include clearfix;
+  }
 }

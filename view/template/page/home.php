@@ -1,6 +1,5 @@
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
-<?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
 
 <main class="home">
   <section class="home__hero">
@@ -43,5 +42,3 @@
     </div>
   </section>
 </main>
-
-<?php echo View::render('nav/_footer') ?>

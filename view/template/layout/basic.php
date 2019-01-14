@@ -62,7 +62,9 @@
   </head>
 
   <body>
+    <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
     <?php echo $content ?>
+    <?php echo View::render('nav/_footer') ?>
 
     <div style="display: none;">
       <div id="fb-root"></div>

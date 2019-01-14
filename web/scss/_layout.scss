@@ -22,11 +22,20 @@ main {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 100%;
-  margin-bottom: 330px;
+  // height: 100%;
+  // margin-bottom: 330px;
   padding-top: 5rem;
+  padding-bottom: 3rem;
   position: relative;
   z-index: 1;
+
+  &:not(.home) {
+    // padding-top: 8rem;
+  }
+
+  &.home {
+    // padding-top: 5rem;
+  }
 }
 
 h1,
@@ -41,6 +50,14 @@ h5 {
   }
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 hr {
   width: 100%; height: 1px;
 
@@ -51,6 +68,14 @@ hr {
 
 code {
   @include font-mono;
+}
+
+small {
+  font-size: 0.8rem;
+
+  &.meta {
+    color: $lbry-gray-5;
+  }
 }
 
 strong {

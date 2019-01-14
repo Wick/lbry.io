@@ -12,6 +12,67 @@
 
       <nav class="header__navigation">
         <ul class="header__navigation-parent">
+          <li>Community</li>
+
+          <div class="header__navigation-children-wrap">
+            <ul class="header__navigation-children inner-wrap">
+              <li class="flex-half">
+                <a href="/get">
+                  <strong>Use LBRY</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Tour</strong>
+                  <span>Have questions about publishing on the LBRY network? Look no further</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>FAQ / Support</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>News</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Blockchain Explorer</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Chat</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-full">
+                <strong>Social</strong>
+                <a href="">Discord</a>
+                <a href="">Facebook</a>
+                <a href="">GitHub</a>
+                <a href="">Instagram</a>
+                <a href="">Reddit</a>
+                <a href="">Telegram</a>
+                <a href="">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+
+        <ul class="header__navigation-parent">
           <li>Creators</li>
 
           <div class="header__navigation-children-wrap">
@@ -25,15 +86,86 @@
 
               <li class="flex-half">
                 <a href="">
-                  <strong>Publisher FAQ</strong>
-                  <span>Have questions about publishing on the LBRY network? Look no further</span>
+                  <strong>Creator Tour</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Creator FAQ</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Makers</strong>
+                  <span>THREE-DEEEEE</span>
                 </a>
               </li>
 
               <li class="flex-full">
                 <a href="">
-                  <strong>3D Printing Program</strong>
-                  <span>THREE-DEEEEE</span>
+                  <strong>Fund a Project</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+
+        <ul class="header__navigation-parent">
+          <li>Company</li>
+
+          <div class="header__navigation-children-wrap">
+            <ul class="header__navigation-children inner-wrap">
+              <li class="flex-half">
+                <a href="">
+                  <strong>Team / About</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Credit Reports</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-full">
+                <a href="">
+                  <strong>Join Us</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Contact</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Choice Blog Post #1</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Choice Blog Post #2</strong>
+                  <span>Here is a short blurb about this link</span>
+                </a>
+              </li>
+
+              <li class="flex-half">
+                <a href="">
+                  <strong>Choice Blog Post #3</strong>
+                  <span>Here is a short blurb about this link</span>
                 </a>
               </li>
             </ul>
@@ -45,13 +177,6 @@
 
           <div class="header__navigation-children-wrap">
             <ul class="header__navigation-children inner-wrap">
-              <li class="flex-half">
-                <a href="">
-                  <strong>Source Code</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
               <li class="flex-half">
                 <a href="">
                   <strong>LBRY.tech</strong>
@@ -68,64 +193,14 @@
 
               <li class="flex-half">
                 <a href="">
-                  <strong>LBRY Tech Forum</strong>
+                  <strong>GitHub</strong>
                   <span>Here is a short blurb about this link</span>
                 </a>
               </li>
 
               <li class="flex-half">
                 <a href="">
-                  <strong>Discord</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </ul>
-
-        <ul class="header__navigation-parent">
-          <li>Company</li>
-
-          <div class="header__navigation-children-wrap">
-            <ul class="header__navigation-children inner-wrap">
-              <li class="flex-full">
-                <a href="">
-                  <strong>Latest News</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
-              <li class="flex-half">
-                <a href="">
-                  <strong>FAQ</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
-              <li class="flex-half">
-                <a href="">
-                  <strong>Blockchain Explorer</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
-              <li class="flex-half">
-                <a href="">
-                  <strong>Roadmap</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
-              <li class="flex-half">
-                <a href="">
-                  <strong>Team</strong>
-                  <span>Here is a short blurb about this link</span>
-                </a>
-              </li>
-
-              <li class="flex-half">
-                <a href="">
-                  <strong>Credit Reports</strong>
+                  <strong>Forum</strong>
                   <span>Here is a short blurb about this link</span>
                 </a>
               </li>
@@ -137,22 +212,6 @@
       <span class="header__download">
         <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
       </span>
-
-      <!--/
-      <?php if (!$isLogoOnly): ?>
-        <div class="mobile header-navigation-mobile">
-          <a href="javascript:;" data-action="toggle-class" data-for=".header" data-class="header-open">
-            <span class="icon icon-bars"></span>
-            <span class="icon icon-close"></span>
-          </a>
-        </div>
-        <div class="fullscreen header-navigation-fullscreen">
-          <nav class="control-group">
-            <?php echo View::render('nav/_globalItems') ?>
-          </nav>
-        </div>
-      <?php endif ?>
-      /-->
     </div>
   </header>
 <?php endif ?>

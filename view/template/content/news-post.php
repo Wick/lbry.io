@@ -26,13 +26,9 @@
     </div>
   </section>
 
-  <section>
-    <div class="inner-wrap">
-      <?php if ($post->hasAuthor()): ?>
-        <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
-      <?php endif ?>
-    </div>
-  </section>
+  <?php if ($post->hasAuthor()): ?>
+    <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
+  <?php endif ?>
 
   <section>
     <div class="inner-wrap">

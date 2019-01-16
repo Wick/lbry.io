@@ -4,7 +4,7 @@
 <main class="ancillary">
   <section class="hero">
     <div class="inner-wrap">
-      <h1 id="join">Join Team Content Freedom</h1>
+      <h1>Join Team Content Freedom</h1>
     </div>
   </section>
 

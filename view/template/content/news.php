@@ -3,10 +3,8 @@
 <main class="news ancillary">
   <section class="hero --news" style="background-image: url(/img/teamcropped.jpg)">
     <div class="inner-wrap">
-      <div class="hero-content text-center">
-        <h1 class="cover-title">{{news.desk}}</h1>
-        <h2 class="cover-subtitle">{{news.musings}}</h2>
-      </div>
+      <h1>{{news.desk}}</h1>
+      <h2>{{news.musings}}</h2>
     </div>
   </section>
 

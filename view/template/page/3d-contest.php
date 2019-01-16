@@ -5,7 +5,7 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(https://spee.ch/3/genius-chess-printed.jpeg)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">3D Chess Design Contest</h1>
+      <h1>3D Chess Design Contest</h1>
     </div>
   </section>
 

@@ -1,20 +1,16 @@
 <?php Response::setMetaDescription(__('Join the battle for free speech on the internet. Your weapon? A keyboard. Your armor? A decentralized content marketplace protocol.')) ?>
 <?php Response::setMetaTitle(__('Do you speak spee.ch?')) ?>
-<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
-<main>
-  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/speech-admin.jpg)">
-    <div class="content content-dark text-center">
-      <h1 class="cover-title cover-title-tile cover-item--outline">Do you speak spee.ch?</h1>
-      <h3 class="cover-item--outline">Join the battle for free speech on the internet. Your weapon? A keyboard. Your armor? A decentralized content marketplace protocol.</h3>
 
-      <div class="spacer1">
-        <a href="#about" class="btn-primary btn-large">Learn More</a>
-      </div>
+<main class="ancillary">
+  <section class="hero" style="background-image: url(/img/speech-admin.jpg)">
+    <div class="inner-wrap">
+      <h1>Do you speak spee.ch?</h1>
+      <h3>Join the battle for free speech on the internet. Your weapon? A keyboard. Your armor? A decentralized content marketplace protocol.</h3>
     </div>
-  </div>
+  </section>
 
-  <div class="cover cover-light" id="about">
-    <div class="content post-content content-readable">
+  <section>
+    <div class="inner-wrap">
       <h3>You'd like us to stop being vaguely provocative and just explain?</h3>
       <p>Fine.</p>
       <p>spee.ch is a free, open-source web portal for LBRY content. It both publishes content to the LBRY network and serves data from the LBRY network, but it does it over the web for improved usability.</p>
@@ -33,6 +29,5 @@
         'btnClass' => 'btn-alt btn-large'
       ]) ?>
     </div>
-  </div>
+  </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

@@ -28,5 +28,5 @@
     <?php js_end() ?>
   <?php endif ?>
 <?php else: ?>
-  <a href="/get" class="button-<?php echo $buttonStyle ?> btn-large">Download Manus</a><BR>
+  <a href="/get" class="button--<?php echo $buttonStyle ?>">Download Manus</a>
 <?php endif ?>

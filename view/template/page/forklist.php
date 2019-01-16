@@ -4,7 +4,7 @@
 <main class="ancillary">
   <section class="hero">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">Blockchain Fork Updates</h1>
+      <h1>Blockchain Fork Updates</h1>
     </div>
   </section>
 

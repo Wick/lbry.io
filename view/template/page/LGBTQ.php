@@ -4,8 +4,8 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/LGBTQ.png)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">LGBTQ Creators Are Under Attack</h1>
-      <h3 class="cover-item--outline">Major services are demonetizing and burying LGBTQ content</h3>
+      <h1>LGBTQ Creators Are Under Attack</h1>
+      <h3>Major services are demonetizing and burying LGBTQ content</h3>
     </div>
   </section>
 

@@ -5,7 +5,7 @@
   <section class="hero">
     <div class="inner-wrap">
       <div class="hero-content text-center">
-        <h1 class="cover-title">Join Our List for LBRY Updates</h1>
+        <h1>Join Our List for LBRY Updates</h1>
       </div>
     </div>
   </section>

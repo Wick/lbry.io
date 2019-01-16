@@ -1,15 +1,4 @@
 .news {
-  a {
-    transition: color 0.2s;
-
-    &:not(:hover) {
-      color: $lbry-teal-5;
-    }
-
-    &:hover {
-      color: $lbry-teal-3;
-    }
-  }
 }
 
 .news-items {
@@ -17,9 +6,6 @@
 }
 
 .news-item {
-  list-style-type: disc;
-  list-style-position: outside;
-
   &:not(:last-of-type) {
     margin-bottom: 1.5rem;
   }

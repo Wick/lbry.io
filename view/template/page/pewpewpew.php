@@ -4,9 +4,7 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/firearm.jpg)">
     <div class="inner-wrap">
-      <div class="hero-content text-center">
-        <h1 class="cover-title">It's tough being a gun owner in 2018</h1>
-      </div>
+      <h1>It's tough being a gun owner in 2018</h1>
     </div>
   </section>
 

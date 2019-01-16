@@ -4,8 +4,8 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/table2.jpg)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">Wanna Meet Up?</h1>
-      <h3 class="cover-item--outline">LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!</h3>
+      <h1>Wanna Meet Up?</h1>
+      <h3>LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!</h3>
     </div>
   </section>
 

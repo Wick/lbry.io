@@ -4,8 +4,8 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/droid1.jpg)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">Testing... Testing...</h1>
-      <h3 class="cover-item--outline">LBRY needs alpha testers for our Android app!</h3>
+      <h1>Testing... Testing...</h1>
+      <h3>LBRY needs alpha testers for our Android app!</h3>
     </div>
   </section>
 

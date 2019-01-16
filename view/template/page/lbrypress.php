@@ -4,8 +4,8 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/blog-covers/censorship.jpg)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">Independent Hosting for Independent Media</h1>
-      <h3 class="cover-item--outline">Don't leave your fate in the hands of Silicon Valley</h3>
+      <h1>Independent Hosting for Independent Media</h1>
+      <h3>Don't leave your fate in the hands of Silicon Valley</h3>
     </div>
   </section>
 

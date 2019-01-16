@@ -4,8 +4,8 @@
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/table2.jpg)">
     <div class="inner-wrap">
-      <h1 class="cover-title cover-title-tile cover-item--outline">LBRY Welcomes LPU Students</h1>
-      <h3 class="cover-item--outline">We're excited to share about LBRY with you!</h3>
+      <h1>LBRY Welcomes LPU Students</h1>
+      <h3>We're excited to share about LBRY with you!</h3>
     </div>
   </section>
 

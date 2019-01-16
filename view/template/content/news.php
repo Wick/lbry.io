@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription(__('description.news')) ?>
 
-<main>
+<main class="news ancillary">
   <section class="hero --news" style="background-image: url(/img/teamcropped.jpg)">
     <div class="inner-wrap">
       <div class="hero-content text-center">

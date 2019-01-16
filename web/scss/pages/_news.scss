@@ -1,9 +1,30 @@
-.news-item {
-  h3 {
-    margin-bottom: 0.25rem;
+.news {
+  a {
+    transition: color 0.2s;
+
+    &:not(:hover) {
+      color: $lbry-teal-5;
+    }
+
+    &:hover {
+      color: $lbry-teal-3;
+    }
   }
+}
+
+.news-items {
+  padding-left: 1.5rem;
+}
+
+.news-item {
+  list-style-type: disc;
+  list-style-position: outside;
 
   &:not(:last-of-type) {
     margin-bottom: 1.5rem;
+  }
+
+  small {
+    display: block;
   }
 }

@@ -5,7 +5,7 @@
   <section class="home__hero">
     <div class="inner-wrap">
       <aside class="home__cta">
-        <h1>Experience<br/>Content Freedom</h1>
+        <h1>Your Favorite Content, Secure</h1>
 
         <div>
           <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
@@ -22,22 +22,22 @@
   </section>
 
   <section class="home__callout">
-    <p>LBRY is a free, open, and community-run digital marketplace.</p>
-    <p><strong>You</strong> own your data. <strong>You</strong> control the network. Indeed, you <em>are</em> the network.</p>
+    <p>LBRY is a secure, open, and community-run digital marketplace.</p>
+    <p>Enjoy the latest content from your favorite creators, as a user; not a product.</p>
   </section>
 
   <section class="home__sites">
     <div class="inner-wrap">
       <aside class="home__site site-tech">
         <h3>😎<br/>LBRY.tech</h3>
-        <p>Curious about the underlying technology? Maybe you have ideas for features to add yourself!</p>
-        <a href="https://lbry.tech" class="button--inverse">Enter lbry.tech</a>
+        <p>Do you have ideas for new features? Do you want to play around with the code for LBRY?</p>
+        <a href="https://lbry.tech" class="button--inverse">Come play at LBRY.tech</a>
       </aside>
 
       <aside class="home__site site-org">
         <h3>🥰<br/>LBRY.org</h3>
-        <p>Have an awesome idea you want funded? Or a community project you would like help with?</p>
-        <a href="https://lbry.org" class="button--inverse">Join us at lbry.org</a>
+        <p>Do you have an awesome idea that could use some help? Want to connect with like-minded users?</p>
+        <a href="https://lbry.org" class="button--inverse">Join the party at LBRY.org</a>
       </aside>
     </div>
   </section>

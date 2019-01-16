@@ -1,20 +1,16 @@
 <?php Response::setMetaDescription(__('description.android-alpha')) ?>
 <?php Response::setMetaTitle(__('title.android-alpha')) ?>
-<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
-<main>
-  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/droid1.jpg)">
-    <div class="content content-dark text-center">
+
+<main class="ancillary">
+  <section class="hero" style="background-image: url(/img/droid1.jpg)">
+    <div class="inner-wrap">
       <h1 class="cover-title cover-title-tile cover-item--outline">Testing... Testing...</h1>
       <h3 class="cover-item--outline">LBRY needs alpha testers for our Android app!</h3>
-
-      <div class="spacer1">
-        <a href="#about" class="btn-primary btn-large">Tell Me More!</a>
-      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="cover cover-light" id="about">
-    <div class="content content-light content-readable">
+  <section>
+    <div class="inner-wrap">
       <h3>Want to help build the first ever decentralized, blockchain based media streaming app?</h3>
       <p> We're looking for developers who can help us get our Android app ready for prime time.</p>
 
@@ -29,6 +25,5 @@
         'btnClass' => 'btn-alt btn-large'
       ]) ?>
     </div>
-  </div>
+  </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

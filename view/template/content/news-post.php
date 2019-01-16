@@ -1,37 +1,42 @@
 <?php Response::setMetaDescription($post->getTitle()) ?>
 <?php Response::addMetaImages($post->getImageUrls()) ?>
 <?php NavActions::setNavUri('/news') ?>
-<?php echo View::render('nav/_header') ?>
-<main>
-  <header class="post-header <?php echo $post->getCover() ? 'with-cover' : ('no-cover'.$post->getCoverBackgroundStyle(4)) ?>"
-          <?php echo $post->getCover() ? 'style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
-          >
-    <div class="post-header-inner content <?php echo $post->getIsCoverLight() ? 'content-light' : 'content-dark' ?>">
-      <h1><?php echo htmlentities($post->getTitle()) ?></h1>
-      <div class="meta spacer1">
-        <?php echo $post->getAuthorName() ?>
-        <?php echo $post->hasAuthor() && $post->hasDate() ? '&bull;' : '' ?>
-        <?php if ($post->hasDate()): ?>
-          <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j Y') ?></span>
-        <?php endif ?>
+
+<main class="news ancillary">
+  <section class="hero --news"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>>
+    <div class="inner-wrap">
+      <div class="hero-content text-center">
+        <h1 class="cover-title"><?php echo htmlentities($post->getTitle()) ?></h1>
+        <h2 class="cover-subtitle">
+          <?php echo $post->getAuthorName() ?>
+          <?php echo $post->hasAuthor() && $post->hasDate() ? '&bull;' : '' ?>
+          <?php if ($post->hasDate()): ?>
+            <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j Y') ?></span>
+          <?php endif ?>
+        </h2>
       </div>
     </div>
-  </header>
-
-  <section class="post-content">
-    <div class="content">
-      <?php echo $post->getContentHtml() ?>
-    </div>
-    <?php echo View::render('content/_postNav', ['post' => $post]) ?>
-    <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
   </section>
 
+  <section>
+    <div class="inner-wrap">
+      <?php echo $post->getContentHtml() ?>
+      <?php echo View::render('content/_postNav', ['post' => $post]) ?>
+      <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
+    </div>
+  </section>
 
-  <?php if ($post->hasAuthor()): ?>
-    <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
-  <?php endif ?>
+  <section>
+    <div class="inner-wrap">
+      <?php if ($post->hasAuthor()): ?>
+        <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
+      <?php endif ?>
+    </div>
+  </section>
 
-  <?php echo View::render('nav/_learnFooter') ?>
-
+  <section>
+    <div class="inner-wrap">
+        <?php echo View::render('nav/_learnFooter') ?>
+      </div>
+  </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

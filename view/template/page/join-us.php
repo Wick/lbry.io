@@ -1,12 +1,15 @@
 <?php Response::setMetaDescription('Like contributing to digital freedom or making money? Why not both? LBRY is hiring!') ?>
 <?php Response::addMetaImage('https://spee.ch/@lbryteam:6/everyone.jpg') ?>
-<?php echo View::render('nav/_header', ['isDark' => false]) ?>
-<main>
-  <section class="post-content">
 
-    <div class="content">
+<main class="ancillary">
+  <section class="hero">
+    <div class="inner-wrap">
       <h1 id="join">Join Team Content Freedom</h1>
+    </div>
+  </section>
 
+  <section>
+    <div class="inner-wrap">
       <p>Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people to join us. If you're looking for a challenging and rewarding pursuit, if you want to work with a team that shares your passion and curiosity, you've come to the right place.</p>
 
       <img src="https://spee.ch/@lbryteam:6/everyone-apr-2018.jpg" alt="LBRY Team Photo from April 2018"/>
@@ -107,4 +110,3 @@
     </div>
   </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

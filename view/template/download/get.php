@@ -2,7 +2,7 @@
 <?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
 <?php NavActions::setNavUri('/get') ?>
 
-<main> <!--/ class="column-fluid" /-->
+<main>
   <section>
     <div class="inner-wrap">
       <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
